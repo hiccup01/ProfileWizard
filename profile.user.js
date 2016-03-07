@@ -8,7 +8,7 @@
 // @exclude     https://scratch.mit.edu/discuss/*
 // @version     3.0
 // @grant       none
-// @updateURL   http://www.hiccup01.com/ProfileWizard/profile.user.js
+// @updateURL   https://raw.githubusercontent.com/hiccup01/ProfileWizard/master/profile.user.js
 // @icon        http://www.hiccup01.com/img/pw.png
 // ==/UserScript==
 console.log("Running ProfileWizard v3.0");
