@@ -6,14 +6,14 @@
 // @include     https://scratch.mit.edu/*
 // @exclude     https://scratch.mit.edu
 // @exclude     https://scratch.mit.edu/discuss/*
-// @version     3.5
+// @version     3.6
 // @grant       none
 // @updateURL   https://raw.githubusercontent.com/hiccup01/ProfileWizard/master/profile.user.js
 // @icon        http://www.hiccup01.com/img/pw.png
 // ==/UserScript==
-console.log("Running ProfileWizard v3.5");
+console.log("Running ProfileWizard v3.6");
 function updateBodyHeight() {
- if (location.hash === "#editor") {
+ if (location.hash === "#editor" || location.hash === "#fullscreen") {
   document.body.style.height = "";
  } else {
   document.body.style.height = "auto";
