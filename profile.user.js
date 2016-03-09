@@ -6,12 +6,12 @@
 // @include     https://scratch.mit.edu/*
 // @exclude     https://scratch.mit.edu
 // @exclude     https://scratch.mit.edu/discuss/*
-// @version     3.4
+// @version     3.5
 // @grant       none
 // @updateURL   https://raw.githubusercontent.com/hiccup01/ProfileWizard/master/profile.user.js
 // @icon        http://www.hiccup01.com/img/pw.png
 // ==/UserScript==
-console.log("Running ProfileWizard v3.4");
+console.log("Running ProfileWizard v3.5");
 function updateBodyHeight() {
  if (location.hash === "#editor") {
   document.body.style.height = "";
@@ -67,4 +67,4 @@ document.body.style.background = colour;
 } else {
 console.log("No colour found or invalid colour...");
 }
-document.body.style.background-attachment = "fixed";
+document.body.style.backgroundAttachment = "fixed";
