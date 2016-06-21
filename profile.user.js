@@ -6,7 +6,7 @@
 // @include     https://scratch.mit.edu/*
 // @exclude     https://scratch.mit.edu
 // @exclude     https://scratch.mit.edu/discuss/*
-// @version     3.6
+// @version     3.7
 // @grant       none
 // @updateURL   https://raw.githubusercontent.com/hiccup01/ProfileWizard/master/profile.user.js
 // @icon        http://www.hiccup01.com/img/pw.png
@@ -20,6 +20,7 @@ function updateBodyHeight() {
  }
 }
 window.addEventListener("hashchange", updateBodyHeight);
+setTimeout(updateBodyHeight(), 750);
 updateBodyHeight();
 var aboutme = document.getElementsByClassName(".about");
 var status = document.querySelector("textarea[name=status]");
